@@ -1,0 +1,9 @@
+FROM php:5.5
+
+RUN set -eux \
+  && cd /usr/local/sbin \
+  && curl -L -o phpunit https://phar.phpunit.de/phpunit-4.phar \
+  && chmod +x phpunit \
+  && ./phpunit --version
+
+CMD ["phpunit", "--bootstrap", "src/autoload.php", "tests"] 
