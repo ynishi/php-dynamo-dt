@@ -1,5 +1,5 @@
 {
-    "name": "ynishi/php-dynamoDT",
+    "name": "ynishi/php-dynamo-dt",
     "type": "library",
     "description": "Util for AWS DynamoDB timestamp",
     "keywords": ["dynamo","aws","util"],
