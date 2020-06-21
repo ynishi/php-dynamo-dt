@@ -4,7 +4,7 @@
     "description": "Util for AWS DynamoDB timestamp",
     "keywords": ["dynamo","aws","util"],
     "homepage": "https://github.com/ynishi/php-dynamoDT",
-    "license": "BSD-3",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Yutaka Nishimura",
@@ -17,7 +17,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Ynishi\\DynamoDT": "src"
+        "Ynishi\\DynamoDT\\\\": "src"
       }
     }
 }
