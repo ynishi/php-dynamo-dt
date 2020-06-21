@@ -26,4 +26,4 @@ sh run_test.sh
 ```
 
 ## LISENCE
-* BSD-3, see LISENCE.
+* BSD-3-Clause, see LISENCE.
