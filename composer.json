@@ -3,7 +3,8 @@
     "type": "library",
     "description": "Util for AWS DynamoDB timestamp",
     "keywords": ["dynamo","aws","util"],
-    "homepage": "https://github.com/ynishi/php-dynamoDT",
+    "homepage": "https://github.com/ynishi/php-dynamo-dt",
+    "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -11,13 +12,13 @@
             "email": "ytk.nishimura@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-      "php": ">=5.5.0" 
+      "php": "5.5"
     },
     "autoload": {
       "psr-4": {
-        "Ynishi\\DynamoDT\\\\": "src"
+        "ynishi\\php-dynamo-dt\\": "src"
       }
     }
 }
